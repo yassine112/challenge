@@ -9,7 +9,7 @@ import UIKit
 
 class PassengersController: UITableViewController {
 
-    let passengerApiUrl = "http://api.open-notify.org/iss-now.json"
+    let passengerApiUrl = "http://api.open-notify.org/astros.json"
 
     let cellId = "cellId"
     var passengers: Passengers?
