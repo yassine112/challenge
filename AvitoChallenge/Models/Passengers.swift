@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Passengers: Decodable {
+    var message: String?
+    var number: Int?
+    var peaple: [Peaple]?
+}

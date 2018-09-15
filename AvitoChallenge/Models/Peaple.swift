@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Peaple: Decodable {
+    var name: String?
+    var craft: String?
+}
